@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Kimber Clark A. Ompoy</title>
+<style>
+/* Page Reset & Basic Setup */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: #f4f6f9;
+color: #333333;
+padding-bottom: 20px;
+}
+/* Header & Menu */
+header {
+background-color: #1e293b;
+color: #ffffff;
+padding: 20px 0;
+text-align: center;
+}
+header h1 {
+font-size: 2rem;
+margin-bottom: 5px;
+}
+header p {
+font-size: 1rem;
+color: #94a3b8;
+margin-bottom: 15px;
+}
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 15px;
+background-color: #0f172a;
+padding: 10px 0;
+}
+nav a {
+color: #ffffff;
+text-decoration: none;
+font-weight: bold;
+padding: 8px 16px;
+border-radius: 4px;
+}
+nav a:hover, nav a.active {
+background-color: #2563eb;
+}
+/* Main Layout & Cards */
+main {
+max-width: 850px;
+margin: 25px auto;
+padding: 0 15px;
+}
+.card {
+background: #ffffff;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+border: 1px solid #cbd5e1;
+}
+.card h2 {
+color: #1e293b;
+margin-bottom: 12px;
+border-bottom: 2px solid #2563eb;
+padding-bottom: 5px;
+}
+.card h3 {
+color: #1e293b;
+margin-top: 15px;
+margin-bottom: 5px;
+}
+.card ul {
+margin-left: 20px;
+margin-top: 10px;
+}
+/* Top Hero Box */
+.hero-card {
+display: flex;
+align-items: center;
+gap: 20px;
+background: #ffffff;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+border: 1px solid #cbd5e1;
+}
+.profile-img {
+width: 130px;
+height: 130px;
+border-radius: 50%;
+object-fit: cover;
+border: 3px solid #2563eb;
+transition: transform 0.2s ease;
+}
+.hero-card a:hover .profile-img {
+transform: scale(1.05);
+}
+/* Skills Table */
+.skills-table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 10px;
+}
+.skills-table th, .skills-table td {
+padding: 10px;
+border: 1px solid #cbd5e1;
+text-align: left;
+}
+.skills-table th {
+background-color: #f1f5f9;
+}
+/* Projects Layout */
+.projects-grid {
+display: flex;
+gap: 15px;
+flex-wrap: wrap;
+}
+.project-item {
+flex: 1 1 calc(50% - 15px);
+background: #f8fafc;
+border: 1px solid #e2e8f0;
+padding: 12px;
+border-radius: 6px;
+}
+.project-item img {
+width: 100%;
+height: 160px;
+object-fit: cover;
+border-radius: 4px;
+margin-bottom: 10px;
+}
+/* Footer */
+footer {
+text-align: center;
+padding: 15px 0;
+background-color: #1e293b;
+color: #94a3b8;
+font-size: 0.9rem;
+margin-top: 25px;
+}
+/* Mobile Screen Support */
+@media (max-width: 600px) {
+.hero-card {
+flex-direction: column;
+text-align: center;
+}
+.projects-grid {
+flex-direction: column;
+}
+.project-item {
+flex: 1 1 100%;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Kimber Clark A. Ompoy</h1>
+<p>IT Student</p>
+<nav>
+<ul>
+<li><a href="#home" class="active">Home</a></li>
+<li><a href="#about">About Me</a></li>
+<li><a href="#projects"> My Projects</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<!-- HOME SECTION -->
+<section id="home" class="hero-card">
+<a href="images/profile.jpg" target="_blank">
+<img src="c:\Users\Hp\Downloads\4d5debc9-ab7b-4585-9b73-3de690457ad5 (1).jpg" alt="Profile photo of Kimber Clark A. Ompoy" class="profile-img">
+</a>
+<div class="hero-text">
+<h2>Hello, I'm Kimber Clark</h2>
+<p><strong>Current Status:</strong> First-Year IT Student</p>
+<p>Welcome to my first website! I love learning about computers, making software, and seeing how tech works every day. My goal is to know more about computers so that i can manage my work well.</p>
+</div>
+</section>
+<section class="card">
+<h2>Quick Overview</h2>
+<p>Who am I as an IT student, what can I do, and what am I learning to become?</p>
+<ul>
+<li><strong>Studying:</strong> Basic Computer Concepts</li>
+<li><strong>Main Focus:</strong> Computer Networks and Online Safety</li>
+<li><strong>Future Role:</strong> Cybercrime Investigator</li>
+</ul>
+</section>
+<!-- ABOUT ME & SKILLS SECTION -->
+<section id="about" class="card">
+<h2>About Me</h2>
+<p>I am a first-year IT student who likes solving problems and working with technology. I chose IT because I want to learn how to fix computer problems and build real projects that help people in their daily lives.</p>
+</section>
+<section class="card">
+<h2>My Skills</h2>
+<table class="skills-table">
+<thead>
+<tr>
+<th>Category</th>
+<th>Skills</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tech Skills</td>
+<td>Basic HTML, Basic CSS, Fixing Simple PC Issues</td>
+</tr>
+<tr>
+<td>Tools I Use</td>
+<td>VS Code, Google Docs, Canva</td>
+</tr>
+<tr>
+<td>Personal Skills</td>
+<td>Problem Solving, Teamwork, Good Communication</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="card">
+<h2>My Computing Journey</h2>
+<p>In my <strong>IT111</strong> class, I liked learning about <strong>Computer Networks</strong>. It was fun to learn how computers talk to each other across the internet so we can send messages and open web pages instantly.</p>
+</section>
+<!-- PROJECTS & GOALS SECTION -->
+<section id="projects" class="card">
+<h2>My Projects</h2>
+<div class="projects-grid">
+<div class="project-item">
+<h3>1. Artificial Intelligence: Its Relationship To Study Duration Of Senior High School Students</h3>
+<p><strong>Description:</strong> A quantitative research project that we made to know how AI usage impacts the study time and academic habits of Senior High School Students. </p>
+<p><strong>My Role:</strong> Co-researcher</p>
+<p><strong>Tools Used:</strong> Canva, Google Docs</p>
+</div>
+<div class="project-item">
+<h3>2. Science Group Reporting</h3>
+<p><strong>Description:</strong> A visual presentation made for Science class using research and clean layouts.</p>
+<p><strong>My Role:</strong> Researcher & Presenter</p>
+<p><strong>Tools Used:</strong> Canva, Google Docs</p>
+</div>
+</div>
+</section>
+<section class="card">
+<h2>My Career Goal</h2>
+<p>I want to become a <strong>Cybercrime Investigator</strong>. In the future, I plan to learn and build strong expertise in network security.</p>
+</section>
+<section class="card">
+<h2>IT111 Class Concepts</h2>
+<h3>Module 1: History of Computing</h3>
+<p>The <strong>CPU</strong> is the "brain" of the computer that processes data, perform calculations, and runs program instructions.</p>  
+<h3>Module 2: How Computers Work (Input → Processing → Storage → Output)</h3>
+<p>Making this site involved four main steps:</p>
+<ul>
+<li><strong>Input:</strong> Typing code using my keyboard in VS Code.</li>
+<li><strong>Processing:</strong> The computer CPU reads and runs the code.</li>
+<li><strong>Storage:</strong> Saving my site files into my computer drive.</li>
+<li><strong>Output:</strong> Seeing my web pages show up on my screen inside the web browser.</li>
+</ul>  
+<h3>Module 3: Connected World</h3>
+<p>When someone opens my site, their <strong>Browser</strong> asks the web <strong>Server</strong> over the <strong>Internet</strong> to send the page using standard web rules <strong>Protocol</strong>.</p>  
+<h3>Module 4: Cybersecurity</h3>
+<ul>
+<li>Use strong passwords that are hard to guess.</li>
+<li>Turn on 2-step verification for safety.</li>
+<li>Keep programs updated to block bugs and hackers.</li>
+</ul>
+</section>  
+<section class="card">
+<h2>Contact Me</h2>
+<p>You can reach me at:</p>
+<p><strong>Email:</strong> <a href="mailto:ompoyx@gmail.com">ompoyx@gmail.com</a></p>
+</section>
+</main>  
+<footer>
+<p>© 2026 Kimber Clark A. Ompoy. All rights reserved.</p>
+</footer>
+</body>
+</html>
